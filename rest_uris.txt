@@ -1,0 +1,38 @@
+"/rest/v1/system/ui/screens"
+"/rest/v1/system/gateway/provisioning"
+"/rest/v1/system/firstinstall"
+"/rest/v1/cablemodem/registration"
+"/rest/v1/system/modemmode"
+"/rest/v1/cablemodem/state_"
+"/rest/v1/system/gateway/provisioning"
+"/rest/v1/mta/lines"
+"/rest/v1/network/hosts_?connectedOnly=true&interface=ethernet"
+"/rest/v1/wifi/band2g/state_"
+"/rest/v1/wifi/band5g/state_"
+"/rest/v1/network/hosts_?connectedOnly=true&interface=wifi"
+"/rest/v1/system/diagnostics/ping/jobs"
+"/rest/v1/system/diagnostics/ping/job/" + id
+"/rest/v1/system/diagnostics/ping/job/" + id + "?stateOnly=true"
+"/rest/v1/system/diagnostics/ping/jobs?stateOnly=true"
+"/rest/v1/system/diagnostics/ping/job/" + pingJobs[key].id
+"/rest/v1/system/diagnostics/traceroute/jobs"
+"/rest/v1/system/diagnostics/traceroute/job/" + id
+"/rest/v1/system/diagnostics/traceroute/job/" + id + "?stateOnly=true"
+"/rest/v1/system/diagnostics/traceroute/jobs?stateOnly=true"
+"/rest/v1/system/diagnostics/traceroute/job/" + traceRouteJobs[key].id
+"/rest/v1/system/languages"
+"/rest/v1/system/localization"
+"/rest/v1/user/" + user + "/language"
+"/rest/v1/cablemodem/" + direction + "/primary_"
+"/rest/v1/cablemodem/serviceflows"
+"/rest/v1/cablemodem/eventlog"
+"/rest/v1/cablemodem/" + direction
+"/rest/v1/user/"
+"/rest/v1/user/" + user + "/token/" + authRetrieveToken(user)
+"/rest/v1/echo"
+"/rest/v1/wifi/" + band + "/state"
+"/rest/v1/wifi/" + band + "/config"
+"/rest/v1/wifi/" + band + "/guest/config"
+"/rest/v1/wifi/band2g/guest/config"
+"/rest/v1/wifi/band5g/guest/config"
+"/rest/v1/wifi/capabilities"
