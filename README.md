@@ -41,3 +41,17 @@ I have two main usecases:
  As far as setting environment variables, honestly there's so many ways to do that, and as this _should be_ an OS independant script there's a lot of potential variants. Go google it for your operating system and shell.
 
  So assuming you've added the `ROUTER_IP` and `ROUTER_PASSWORD` environment variables, you are good to go, just use `python test.py` and it will run the script.
+
+ Currently what it does it:
+  - log into the router
+  - get the auth token
+  - get the collection of connected devices
+  - print the timer on how long it took to do that
+  - print the collection of connected devices
+
+
+## Bonus Detail
+
+I would love to have found a pingable endpoint on the router to list all the available usable URI's on the REST API but I couldn't quickly see one, so I looked through the routers admin pages site itself and snagged the Javascript files, and from those I created a list of all the REST API endpoint URI's I could find. 
+These are all in the `/router_js/` directory in this repo.
+I've no idea on their signatures (what header args they may or may not require, nor what they might return), but hopefully with the JS files in hand to see how they are used in the site they should be obvious enough.
